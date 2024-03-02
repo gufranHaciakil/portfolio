@@ -73,8 +73,11 @@ const Main = () => {
   const [artcArry, set_artcArry] = useState(articles);
 
   return (
-    <Container >
-      <div id='articles' className="flex flex-col gap-10 items-center justify-center flex-wrap">
+    <Container>
+      <div
+        id="articles"
+        className="flex flex-col gap-10 items-center justify-center flex-wrap"
+      >
         <div className="flex flex-wrap justify-center gap-2">
           {buttons.map((item) => {
             return (
