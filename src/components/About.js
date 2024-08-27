@@ -12,7 +12,7 @@ const Aboutmy = () => {
             Frontend Developer
           </h1>
           <p className="text-sm text-gray-500 leading-8 w-full mt-2">
-            A Frontend Developer with almost <b>2 year of experience</b> working
+            A Frontend Developer with almost <b>4 year of experience</b> working
             as a frontend developer, during my work l`ve built multiple apps
             using various techs such as <b>React.js</b> , <b>PHP</b> and{" "}
             <b>Mysql</b>.

@@ -66,6 +66,28 @@ const articles = [
     github: "https://github.com/gufranHaciakil/miniSocialmedia",
     more: "/",
   },
+  {
+    img: "e-commerc.png",
+    name: "E-commerce React",
+    category: "React-ReduxToolkit",
+    subCategory: "tailwind",
+    title:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+    link1: "/",
+    github: "https://github.com/gufranHaciakil/E-commerc_react",
+    more: "/",
+  },
+  {
+    img: "anasayfa.png",
+    name: "E-commerce PHP",
+    category: "PHP Mysql",
+    subCategory: "tailwind",
+    title:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+    link1: "/",
+    github: "https://github.com/gufranHaciakil/market",
+    more: "/",
+  },
 ];
 
 const Main = () => {
@@ -95,9 +117,8 @@ const Main = () => {
                     set_artcArry([]);
                   }
                 }}
-                className={`${
-                  active === item.class ? "active" : null
-                } bg-gray-200 px-5 py-2 rounded-md hover:border-gray-400 border-2 hover:text-black transition-all duration-300`}
+                className={`${active === item.class ? "active" : null
+                  } bg-gray-200 px-5 py-2 rounded-md hover:border-gray-400 border-2 hover:text-black transition-all duration-300`}
               >
                 {item.name}
               </button>
